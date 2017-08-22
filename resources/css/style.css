@@ -1,7 +1,122 @@
 /* ALL */
-
+body {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
 
 /* HEADER */
+header {
+  position: fixed;
+  z-index: 2000;
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  min-width: 100%;
+  border-bottom: 1px solid #e7e7e7;
+  background-color: #f8f8f8;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu ul li {
+  width: 8rem;
+  text-align: center;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #777;
+}
+
+a:hover {
+  color: #337ab7;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 4rem;
+}
+
+/* BANNER */
+.banner {
+  padding-top: 4rem;
+}
+
+.background-image1, .background-image2, .background-image3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.background-image1 {
+  background-image: url("../images/jumbotron-bike.jpg");
+}
+
+.background-image2 {
+  background-image: url("../images/jumbotron-duffel.jpg");
+}
+
+.background-image3 {
+  background-image: url("../images/jumbotron-beer.jpg");
+}
+
+.banner h1 {
+  margin-top: 8rem;
+  color: white;
+  font-family: "monoton";
+  font-size: 7rem;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.banner h2 {
+  margin-top: 1rem;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn p {
+  text-align: center;
+  margin-top: 8rem;
+  padding: 1.5rem;
+  width: 7rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  background-color: #399bd1;
+  color: white;
+  transition: box-shadow 0.2s linear;
+}
+
+.btn p:hover {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+  border-color: #2e6da4;
+}
+
+
 
 
 /* CONTENT */
