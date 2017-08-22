@@ -147,7 +147,7 @@ a:hover {
   margin-bottom: 1rem;
 }
 
-.raw {
+.row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -229,3 +229,53 @@ footer .btn {
 }
 
 /* MEDIA */
+
+@media only screen and (max-width: 1024px) {
+  .btn {
+    top: -8rem;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .row {
+    display: block;
+    flex-direction: column;
+  }
+  .column {
+    display: block;
+    max-width: 100%;
+    margin: 2rem;
+  }
+  .text-box {
+    display: flex;
+    flex-direction: column;
+    min-width: 80%;
+    text-align: center;
+    margin: 2rem auto;
+  }
+  #features .text-box {
+    margin: 2rem auto;
+  }
+  .title {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .logo {
+    display: none;
+  }
+  header {
+    justify-content: center;
+    height: 8rem;
+  }
+  .menu ul {
+    flex-direction: column;
+  }
+  .menu ul li {
+    padding: 0.5rem;
+  }
+}
