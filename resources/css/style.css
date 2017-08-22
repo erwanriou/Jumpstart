@@ -278,4 +278,10 @@ footer .btn {
   .menu ul li {
     padding: 0.5rem;
   }
+  .banner h1 {
+    font-size: 3rem;
+  }
+  .banner h2 {
+    font-size: 1rem;
+  }
 }
